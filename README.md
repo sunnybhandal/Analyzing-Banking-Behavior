@@ -1,7 +1,7 @@
-# mini-project-III
+# Mini-Project-III
 
 ### Topics
-This mini project is dedicated to following topics:
+This project is dedicated to the following topics:
 - Data Wrangling
 - Data Visualization
 - Data Preparation and Feature Engineering
@@ -9,7 +9,7 @@ This mini project is dedicated to following topics:
 - Unsupervised Learning
 
 ### Data
-We will be using old data about different financial transactions. You can download the data from [here](https://drive.google.com/file/d/1zAjnf936aHkwVCq_BmA47p4lpRjyRzMf/view?usp=sharing). The data contains following tables:
+We will be using old data about different financial transactions. You can download the data from [here](https://drive.google.com/file/d/1zAjnf936aHkwVCq_BmA47p4lpRjyRzMf/view?usp=sharing). The data contains the following tables:
 
 - twm_customer - information about customers
 - twm_accounts - information about accounts
@@ -21,16 +21,15 @@ We will be using old data about different financial transactions. You can downlo
 - twm_checking_tran - information about savings transactions (subset of twm_transactions)
 - twm_credit_tran - information about credit checking (subset of twm_transactions)
 
-
 ### Output
 
-In this miniproject, we will:
+In this project:
 
-1.  create two separate customer segmentations (using clustering) to split them into 3-5 clusters: 
+1.  Create two separate customer segmentations (using clustering) to split them into 3-5 clusters: 
     - based on demographics (only on the information from twm_customer)
     - based on their banking behavior. We can take following things into consideration as banking behavior:
-        - do they have savings account? How much do they save?
-        - do they have credit account? How much do they live in debt?
-        - are they making lot of small transactions or few huge ones?
-2. visualize the created clusters using [radar charts](https://plotly.com/python/radar-chart/) and compare them agains each other
-3. visualize segmentations using scatter plot. We will have to use PCA to be able to plot our observations in 2D.
+        - Do they have a savings account? How much do they save?
+        - Do they have a credit account? How much do they live in debt?
+        - Are they making a lot of small transactions or a few huge ones?
+2. Visualize the created clusters using [radar charts](https://plotly.com/python/radar-chart/) and compare them against each other.
+3. Visualize segmentations using scatter plot. Use PCA to plot our observations in 2D.
