@@ -1,4 +1,4 @@
-# Mini-Project-III
+# Banking Behavior
 
 ### Topics
 This project is dedicated to the following topics:
